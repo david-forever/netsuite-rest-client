@@ -251,7 +251,7 @@ module Netsuite
       if @sandbox
         "https://rest.sandbox.netsuite.com/app/site/hosting/restlet.nl"
       else
-        "https://rest.netsuite.com/app/site/hosting/restlet.nl"
+        "https://rest.na1.netsuite.com/app/site/hosting/restlet.nl"
       end
     end
 
