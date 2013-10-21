@@ -6,7 +6,7 @@ module Netsuite
 
   class Client
 
-    DEFAULT_SCRIPT_ID             = 13
+    DEFAULT_SCRIPT_ID             = 54
     DEFAULT_DEPLOY_ID             = 1
     DEFAULT_GET_RECORD_BATCH_SIZE = 10000
     DEFAULT_SEARCH_BATCH_SIZE     = 1000
