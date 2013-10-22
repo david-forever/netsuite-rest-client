@@ -208,7 +208,6 @@ module Netsuite
       end
 
       begin
-        binding.pry
         parsed = JSON.parse(reply, :symbolize_names=>true)
       rescue Exception => e
         raise "Unable to parse reply from Netsuite: #{reply}"
